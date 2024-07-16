@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signup_window</class>
+ <widget class="QDialog" name="signup_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Create an account</string>
+  </property>
+  <widget class="QPushButton" name="button_create">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>330</y>
+     <width>300</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Create account</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="textbox_username">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>140</y>
+     <width>300</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>150</number>
+   </property>
+   <property name="placeholderText">
+    <string>Username</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="textbox_password">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>180</y>
+     <width>300</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>Password</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Estrangelo Edessa</family>
+     <pointsize>22</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>FOXYNC</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>68</x>
+     <y>20</y>
+     <width>80</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Sans</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../medias/logo-foxync_no_background.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="textbox_confirm_password">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>220</y>
+     <width>300</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>Confirm password</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_wrong">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>116</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: red;</string>
+   </property>
+   <property name="text">
+    <string>Password must have at least 6 characters</string>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_login">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>370</y>
+     <width>300</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Return to log in page</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>textbox_username</tabstop>
+  <tabstop>textbox_password</tabstop>
+  <tabstop>textbox_confirm_password</tabstop>
+  <tabstop>button_create</tabstop>
+  <tabstop>button_login</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

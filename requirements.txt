@@ -1,0 +1,10 @@
+bsdiff4==1.2.4
+mariadb==1.1.10
+PyQt5==5.15.10
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.13.0
+requests==2.31.0
+GitPython==3.1.43
+Flask==3.0.3
+bencodepy==0.9.5
+APScheduler==3.10.4
